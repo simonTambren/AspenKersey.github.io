@@ -8,22 +8,27 @@
    
    This file contains the layout styles used for the Portfolio
    
-   Any crediting will go here:
+   Any crediting will go here: Seth helped me with the body
 
-*/
-
-/* ===========
-   Base Styles
-   ===========
 */
 
 
 /* HTML and Body Styles */
 html{
-	background-color: rgb(204, 255, 204);
+	background-color:rgb(102, 153, 153);
 	margin-left: auto;
    margin-right: auto;
    width: 1500px;
+}
+body{
+	float:none;
+	background-color: rgb(0, 204, 153);
+	margin: 0px auto;
+	width:2500px;
+	max-width:1000px;
+	min-width:800px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 /*Navigation Styles*/
@@ -37,13 +42,13 @@ nav.horizontal ul li {
 }
 
 nav.horizontal ul li a {
-   color: rgb(153, 83, 6);
+   color: rgb(0, 102, 102);
    display: block;
    width: 100%;
 }
 nav.horizontal ul li a:hover {
    color: white;
-   background-color: rgb(153, 83, 6);
+   background-color: rgb(0, 102, 102);
 }
 
 
@@ -61,7 +66,9 @@ section{
 	display:block;
 	padding-top:15px;
 }
-
+h1{
+	clear:both
+}
 
 /*Footer Styles*/
 
