@@ -47,8 +47,14 @@ nav.horizontal ul li a:hover {
 }
 
 
-
-
+/*Article Styles*/
+article{
+	clear:both;
+	display:block;
+	padding-top:35px;
+	padding-right:83px;
+	text-align:center;
+}
 /* Section Styles */
 section{
 	clear:both;
@@ -58,3 +64,10 @@ section{
 
 
 /*Footer Styles*/
+
+
+footer{
+	display:block;
+	text-align:left;
+	padding-top:150px;
+}
