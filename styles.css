@@ -1,1 +1,60 @@
- 
+ @charset "utf-8";
+
+/*
+
+	Portfolio
+
+   Filename: styles.css
+   
+   This file contains the layout styles used for the Portfolio
+   
+   Any crediting will go here:
+
+*/
+
+/* ===========
+   Base Styles
+   ===========
+*/
+
+
+/* HTML and Body Styles */
+html{
+	background-color: rgb(204, 255, 204);
+	margin-left: auto;
+   margin-right: auto;
+   width: 1500px;
+}
+
+/*Navigation Styles*/
+nav.horizontal ul li {
+	display: block;
+	width: 12%;
+	float:left;
+	font-size: 0.8em;
+	height: 100%;
+	text-align: center;
+}
+
+nav.horizontal ul li a {
+   color: rgb(153, 83, 6);
+   display: block;
+   width: 100%;
+}
+nav.horizontal ul li a:hover {
+   color: white;
+   background-color: rgb(153, 83, 6);
+}
+
+
+
+
+/* Section Styles */
+section{
+	clear:both;
+	display:block;
+	padding-top:15px;
+}
+
+
+/*Footer Styles*/
