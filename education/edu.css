@@ -22,7 +22,7 @@
 
 
 /*Section Styles*/
- /*got this code from:rgb(153, 153, 153) */
+ /*got this code from:https://stackoverflow.com/questions/2717127/css3-gradient-borders*/
 section#FHC h1{
 display: inline-block;
   width: 200px;
@@ -37,6 +37,9 @@ display: inline-block;
   /* A transparent border determines the width */
   border: 4px solid transparent;
   border-radius: 8px;
+  color:hsl(0, 0%, 15%);
+  box-shadow: 9px 9px 5px hsl(180, 20%, 50%);
+  
 }
 section#LC h1{
 display: inline-block;
@@ -48,10 +51,22 @@ display: inline-block;
   background-origin: border-box;
   border: 4px solid transparent;
   border-radius: 8px;
-  color:hsl(0, 0%, 90%)
-;
+  color:hsl(0, 0%, 90%);
+  box-shadow: 9px 9px 5px hsl(0, 50%, 50%);
 }
-  
+
+section#FHC img, section#LC img{
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-bottom:auto;
+	padding-right:auto;
+	
+}
+section p{
+	font-size: 1.3em;
+	font-family:arial;
+	src: url(arial.ttf);
+}
   
   
   

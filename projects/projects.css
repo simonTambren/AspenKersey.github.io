@@ -1,0 +1,47 @@
+ @charset "utf-8";
+
+/*
+
+	Portfolio
+
+   Filename: projects.css
+   
+   This file contains the layout styles used for the Portfolio
+   
+   Any crediting will go here: 
+
+*/ 
+/*HTML and Body Styles*/
+
+
+
+
+
+
+/*Article Styles*/
+article{
+	padding-bottom: 3px;
+	color: hsl(120, 100%, 90%);
+	text-shadow: 2px 2px hsl(120, 100%, 10%);
+}
+
+
+
+
+/*Section Styles*/
+section img#web1{
+	display:block;
+	padding-bottom:20px;
+}
+section img#web2{
+	display:block;
+	padding-bottom:20px;
+}
+section img#web3{
+	display:block;
+	padding-bottom:20px;
+}
+section img#web4{
+	display:block;
+	padding-bottom:20px;
+}

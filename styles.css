@@ -8,8 +8,7 @@
    
    This file contains the layout styles used for the Portfolio
    
-   Any crediting will go here: Seth helped me with the body, Jason helped me
-   with the fonts
+   Any crediting will go here: Seth helped me with the body
 
 */
 
@@ -22,6 +21,7 @@ html{
    width: 1500px;
    font-family:verdana;
    src: url(verdana.tff);
+
 }
 body{
 	float:none;
@@ -32,6 +32,7 @@ body{
 	min-width:800px;
 	padding-top:20px;
 	padding-bottom:20px;
+	padding-left:20px;
 }
 
 /*Navigation Styles*/
