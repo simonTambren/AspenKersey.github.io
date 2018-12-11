@@ -18,16 +18,15 @@ body{
 }
  
 /*Section Styles*/
-	section > nav #comm> ul > li > a:link, nav#comm > ul > li > a:visited {
-		color:hsl(180, 20%, 50%);
-		padding-top:5px;
-		padding-bottom:5px;
-	}
-	section>  nav#comm > ul > li > a:link, nav#comm > ul > li > a:active {
-		color:hsl(180, 20%, 50%);
-		padding-top:5px;
-		padding-bottom:5px;
-	}
+	nav#comm ul li a {
+		color:hsl(180, 20%, 40%);
+		display: block;
+		width: 100%;
+}
+	nav#comm ul li a:hover {
+		color: white;
+		background-color: hsl(180, 20%, 40%);
+}
 	section h1{
 		font-family:cour;
 		src: url(cour.ttf);
