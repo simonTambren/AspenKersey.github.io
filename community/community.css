@@ -1,0 +1,35 @@
+ @charset "utf-8";
+
+/*
+
+	Portfolio
+
+   Filename: community.css
+   
+   This file contains the layout styles used for the Portfolio
+   
+   Any crediting will go here: Seth helped me with the body
+
+*/
+
+/*HTML  and Body Styles*/
+body{
+	padding-bottom:400px;
+}
+ 
+/*Section Styles*/
+	section > nav #comm> ul > li > a:link, nav#comm > ul > li > a:visited {
+		color:hsl(180, 20%, 50%);
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	section>  nav#comm > ul > li > a:link, nav#comm > ul > li > a:active {
+		color:hsl(180, 20%, 50%);
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	section h1{
+		font-family:cour;
+		src: url(cour.ttf);
+		font-size:1.8em;
+	}

@@ -12,7 +12,9 @@
 
 */ 
 /*HTML and Body Styles*/
-
+body{
+	padding-right:30px;
+}
 
 
 
@@ -29,19 +31,15 @@ article{
 
 
 /*Section Styles*/
-section img#web1{
-	display:block;
-	padding-bottom:20px;
+img#web1{
+	padding:5px;
 }
-section img#web2{
-	display:block;
-	padding-bottom:20px;
+img#web2{
+	padding:5px;
 }
-section img#web3{
-	display:block;
-	padding-bottom:20px;
+img#web3{
+	padding:5px;
 }
-section img#web4{
-	display:block;
-	padding-bottom:20px;
+img#web4{
+	padding:5px;
 }

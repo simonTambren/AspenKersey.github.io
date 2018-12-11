@@ -1,0 +1,49 @@
+ @charset "utf-8";
+
+/*
+
+	Portfolio
+
+   Filename: jobs.css
+   
+   This file contains the layout styles used for the Portfolio
+   
+   Any crediting will go here: 
+
+*/
+
+
+
+
+
+
+/*Section Styles*/
+section#ihop h1 {
+	margin:2px;
+	width:77px;
+	border-bottom: 3px solid rgb(0, 102, 204);
+}
+section#taco_bell h1 {
+	margin:2px;
+	width:113px;
+	border-bottom: 3px solid rgb(153, 0, 204);
+}
+section#dq h1 {
+	margin:2px;
+	width:165px;
+	border-bottom: 3px solid rgb(255, 255, 255);
+}
+section#kfc h1 {
+	margin:2px;
+	width:77px;
+	border-bottom: 3px solid rgb(204, 0, 0);
+}
+
+section img{
+	padding-top:6px;
+}
+section p {
+	font-family:georgiaz;
+	src: url(georgiaz.ttf);
+	font-size:1.2em;
+}
