@@ -32,3 +32,8 @@ body{
 		src: url(cour.ttf);
 		font-size:1.8em;
 	}
+	section img{
+		float:center;
+		display:block;
+		width:50%;
+	}
