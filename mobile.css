@@ -15,7 +15,7 @@
 	Mobile Styles: 0 - 480 pixels
    =============================
 */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 570px) {
 	section#FHC img{
 		display:none;
 	}
@@ -41,6 +41,7 @@
 	section#ref img{
 		display:none;
 	}
+	
 	
 }
 
