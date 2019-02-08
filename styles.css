@@ -14,8 +14,9 @@
 
 
 /* HTML and Body Styles */
-html{
-	background-color:rgb(102, 153, 153);
+html
+	/*Customer wants this color Teal*/
+	background-color: blue;
 	margin-left: auto;
    margin-right: auto;
    width: 100%;
@@ -25,7 +26,8 @@ html{
 }
 body{
 	float:none;
-	background-color: rgb(0, 204, 153);
+	background-color: green;
+	/*Customer wants this color 157,193,131*/
 	margin: 0px auto;
 	width:80%;
 	padding-top:20px;
