@@ -23,7 +23,7 @@
 
 /*Section Styles*/
  /*got this code from:https://stackoverflow.com/questions/2717127/css3-gradient-borders*/
-section#FHC h1
+section#FHC h1{
 display: inline-block;
   width: 200px;
   height: 60px;
@@ -38,8 +38,8 @@ display: inline-block;
   border: 4px solid transparent;
   border-radius: 8px;
   color:hsl(0, 0%, 15%);
-  box-shadow: 9px 9px 5px black;
-  /*Customer wants this color hsl(180, 20%, 50%)*/
+  box-shadow: 9px 9px 5px hsl(180, 20%, 50%);
+ 
   
 }
 section#LC h1{
@@ -53,8 +53,8 @@ display: inline-block;
   border: 4px solid transparent;
   border-radius: 8px;
   color:hsl(0, 0%, 90%);
-  box-shadow: 9px 9px 5px white;
-  /*Customer wants this color hsl(0, 50%, 50%)*/
+  box-shadow: 9px 9px 5px hsl(0, 50%, 50%);
+  
 }
 
 section#FHC img, section#LC img{
